@@ -1,10 +1,12 @@
 
-import './App.css';
+import Body from './components/Body';
+import Browse from './components/Browse';
 
 function App() {
   return (
-    <div className="flex align-center justify-center bg-red-300">
-      hi netflix
+    <div>
+      <Body/>
+      {/* <Browse/ */}
     </div>
   );
 }
